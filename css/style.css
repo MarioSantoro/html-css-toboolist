@@ -31,13 +31,13 @@ main{
     background-color: white;
     margin: 50px auto;
     width: 1000px;
-    
+    height: 600px;
+    border-radius: 20px;
 }
 
 main > header{
     height: 80px;
     border-bottom:3px solid #f6f8f9;
-    border-radius: 10px 10px 1px 1px ;
 }
 
 header > .style-button{
@@ -127,4 +127,12 @@ header > .color-button-normal{
 
 .orange{
     background-color: orange;
+}
+
+.pink{
+    background-color: #d6619f;
+}
+
+.lime{
+    background-color: lime;
 }
