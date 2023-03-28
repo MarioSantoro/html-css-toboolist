@@ -31,7 +31,7 @@ main{
     background-color: white;
     margin: 50px auto;
     width: 1000px;
-    height: 500px;
+    
 }
 
 main > header{
@@ -81,6 +81,19 @@ header > .color-button-normal{
     vertical-align: middle;
 }
 
+.check-mark-X{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    color: #f01212;
+    margin-left: 50px;
+    border: 1px solid #d31212; 
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
 .margin-top-check-mark{
     margin-top:10px ;
 }
@@ -91,11 +104,27 @@ header > .color-button-normal{
     margin-left: 5px;
 }
 
-.style-type-task ,.blue{
-    background-color: #47adf1;
+.style-type-task{
     color: white;
     margin-left: 5px;
     border-radius: 10px;
     padding: 5px;
     font-weight: bold;
+    font-size: small;
+}
+
+.blue{
+    background-color: #47adf1;
+}
+
+.violet{
+    background-color: violet;
+}
+
+.green{
+    background-color: rgb(90, 206, 167);
+}
+
+.orange{
+    background-color: orange;
 }
