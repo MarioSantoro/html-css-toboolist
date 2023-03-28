@@ -35,23 +35,34 @@ main{
 
 main > header{
     height: 80px;
-    border-bottom:1px solid #f6f8f9;
+    border-bottom:3px solid #f6f8f9;
+    border-radius: 10px 10px 1px 1px ;
 }
 
 header > .style-button{
     border-radius: 3px;
     border: none;
     padding: 5px;
+    font-weight: bold;
 }
 
 header > .color-button-blue{
     background-color: #47adf1;
     color: white;
-    margin-left:20px ;
+    margin-left:20px;
 }
 
 header > .color-button-normal{
     background-color: white;
     border: 1px solid lightgray;
     color: lightgray;
+ }
+
+ .center{
+    margin-left: 40px;
+    margin-top:20px ;
+ }
+
+ ul{
+    list-style: none;
  }
