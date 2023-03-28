@@ -66,3 +66,26 @@ header > .color-button-normal{
  ul{
     list-style: none;
  }
+
+.check-mark{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    color: #71c7b4;
+    margin-left: 50px;
+    border: 1px solid #71c7b4; 
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.margin-top-check-mark{
+    margin-top:10px ;
+}
+
+.description-task{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+}
